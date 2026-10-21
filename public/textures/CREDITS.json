@@ -1,0 +1,256 @@
+{
+  "license": "CC0 1.0 (https://polyhaven.com/license)",
+  "source": "https://polyhaven.com",
+  "assets": {
+    "white_plaster_02": {
+      "name": "White Plaster 02",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "url": "https://polyhaven.com/a/white_plaster_02"
+    },
+    "concrete_floor_01": {
+      "name": "Concrete Floor 01",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "url": "https://polyhaven.com/a/concrete_floor_01"
+    },
+    "white_sandstone_blocks_02": {
+      "name": "White Sandstone Blocks 02",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "url": "https://polyhaven.com/a/white_sandstone_blocks_02"
+    },
+    "marble_01": {
+      "name": "Marble 01",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "url": "https://polyhaven.com/a/marble_01"
+    },
+    "wood_floor": {
+      "name": "Wood Floor",
+      "authors": [
+        "Dimitrios Savva"
+      ],
+      "url": "https://polyhaven.com/a/wood_floor"
+    },
+    "large_floor_tiles_02": {
+      "name": "Large Floor Tiles 02",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "url": "https://polyhaven.com/a/large_floor_tiles_02"
+    },
+    "stone_tiles_02": {
+      "name": "Stone Tiles 02",
+      "authors": [
+        "Charlotte Baglioni"
+      ],
+      "url": "https://polyhaven.com/a/stone_tiles_02"
+    },
+    "leafy_grass": {
+      "name": "Leafy Grass",
+      "authors": [
+        "Charlotte Baglioni"
+      ],
+      "url": "https://polyhaven.com/a/leafy_grass"
+    },
+    "brown_mud_leaves_01": {
+      "name": "Brown Mud Leaves 01",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "url": "https://polyhaven.com/a/brown_mud_leaves_01"
+    },
+    "asphalt_02": {
+      "name": "Asphalt 02",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "url": "https://polyhaven.com/a/asphalt_02"
+    },
+    "herringbone_pavement_02": {
+      "name": "Herringbone Pavement 02",
+      "authors": [
+        "Amal Kumar"
+      ],
+      "url": "https://polyhaven.com/a/herringbone_pavement_02"
+    },
+    "gravel": {
+      "name": "Gravel",
+      "authors": [
+        "Dimitrios Savva"
+      ],
+      "url": "https://polyhaven.com/a/gravel"
+    },
+    "bark_brown_02": {
+      "name": "Bark Brown 02",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "url": "https://polyhaven.com/a/bark_brown_02"
+    },
+    "walnut_veneer": {
+      "name": "Walnut Veneer",
+      "authors": [
+        "Jenelle van Heerden"
+      ],
+      "url": "https://polyhaven.com/a/walnut_veneer"
+    },
+    "oak_veneer_01": {
+      "name": "Oak Veneer 01",
+      "authors": [
+        "Jenelle van Heerden"
+      ],
+      "url": "https://polyhaven.com/a/oak_veneer_01"
+    },
+    "fabric_pattern_07": {
+      "name": "Fabric Pattern 07",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "url": "https://polyhaven.com/a/fabric_pattern_07"
+    },
+    "brown_leather": {
+      "name": "Brown Leather",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "url": "https://polyhaven.com/a/brown_leather"
+    },
+    "poly_wool_herringbone": {
+      "name": "Poly Wool Herringbone",
+      "authors": [
+        "colormass",
+        "Rico Cilliers"
+      ],
+      "url": "https://polyhaven.com/a/poly_wool_herringbone"
+    },
+    "long_white_tiles": {
+      "name": "Long White Tiles",
+      "authors": [
+        "Jenelle van Heerden",
+        "Sergej Majboroda"
+      ],
+      "url": "https://polyhaven.com/a/long_white_tiles"
+    },
+    "white_stucco": {
+      "name": "White Stucco",
+      "authors": [
+        "Amal Kumar"
+      ],
+      "url": "https://polyhaven.com/a/white_stucco"
+    },
+    "painted_concrete": {
+      "name": "Painted Concrete",
+      "authors": [
+        "Dario Barresi",
+        "Dimitrios Savva"
+      ],
+      "url": "https://polyhaven.com/a/painted_concrete"
+    },
+    "large_sandstone_blocks_01": {
+      "name": "Large Sandstone Blocks 01",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "url": "https://polyhaven.com/a/large_sandstone_blocks_01"
+    },
+    "kloofendal_48d_partly_cloudy_puresky": {
+      "name": "Kloofendal 48d Partly Cloudy (Pure Sky)",
+      "authors": [
+        "Greg Zaal",
+        "Jarod Guest"
+      ],
+      "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+    },
+    "jacaranda_tree (leaf textures only)": {
+      "name": "Jacaranda Tree",
+      "authors": [
+        "Rob Tuytel",
+        "Rico Cilliers"
+      ],
+      "url": "https://polyhaven.com/a/jacaranda_tree"
+    },
+    "sofa_02 (model)": {
+      "name": "Sofa 02",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "url": "https://polyhaven.com/a/sofa_02"
+    },
+    "sofa_03 (model)": {
+      "name": "Sofa 03",
+      "authors": [
+        "Fran Calvente"
+      ],
+      "url": "https://polyhaven.com/a/sofa_03"
+    },
+    "ArmChair_01 (model)": {
+      "name": "Arm Chair 01",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "url": "https://polyhaven.com/a/ArmChair_01"
+    },
+    "modern_arm_chair_01 (model)": {
+      "name": "Modern Arm Chair 01",
+      "authors": [
+        "Vibrant Nordic"
+      ],
+      "url": "https://polyhaven.com/a/modern_arm_chair_01"
+    },
+    "mid_century_lounge_chair (model)": {
+      "name": "Mid Century Lounge Chair",
+      "authors": [
+        "Kuutti Siitonen"
+      ],
+      "url": "https://polyhaven.com/a/mid_century_lounge_chair"
+    },
+    "modern_coffee_table_01 (model)": {
+      "name": "Modern Coffee Table 01",
+      "authors": [
+        "Amin"
+      ],
+      "url": "https://polyhaven.com/a/modern_coffee_table_01"
+    },
+    "side_table_01 (model)": {
+      "name": "Side Table 01",
+      "authors": [
+        "James Ray Cock"
+      ],
+      "url": "https://polyhaven.com/a/side_table_01"
+    },
+    "round_wooden_table_01 (model)": {
+      "name": "Round Wooden Table 01",
+      "authors": [
+        "Ulan Cabanilla"
+      ],
+      "url": "https://polyhaven.com/a/round_wooden_table_01"
+    },
+    "dining_chair_02 (model)": {
+      "name": "Dining Chair 02",
+      "authors": [
+        "James Ray Cock"
+      ],
+      "url": "https://polyhaven.com/a/dining_chair_02"
+    },
+    "Ottoman_01 (model)": {
+      "name": "Ottoman 01",
+      "authors": [
+        "Caspian Fortune"
+      ],
+      "url": "https://polyhaven.com/a/Ottoman_01"
+    },
+    "shrub_02 (model)": {
+      "name": "Shrub 02",
+      "authors": [
+        "Rico Cilliers"
+      ],
+      "url": "https://polyhaven.com/a/shrub_02"
+    }
+  }
+}

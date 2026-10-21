@@ -1,0 +1,180 @@
+@import "tailwindcss";
+
+/*
+ * Palette — five brand colours plus two derived neutrals. Registered as
+ * Tailwind theme tokens so every utility (bg-/text-/border-/from-/via-/to-,
+ * including /opacity variants) uses exactly these values.
+ *
+ *   charcoal  #222522  page background
+ *   copper    #B98262  primary actions, emphasis
+ *   linen     #F1EAE0  primary text on dark
+ *   stone     #A6A096  secondary text, labels, hairlines
+ *   winter    #C9DCE8  restrained cool accent (focus, scene labels, links)
+ */
+@theme inline {
+  --color-charcoal: #222522;
+  --color-charcoal-dark: #181a18;
+  --color-charcoal-surface: #2a2e2a;
+  --color-copper: #b98262;
+  --color-copper-hover: #c89272;
+  --color-linen: #f1eae0;
+  --color-linen-muted: #d8cfbf;
+  --color-stone-arch: #a6a096;
+  --color-stone-subtle: rgb(166 160 150 / 0.22);
+  --color-winter: #c9dce8;
+  --color-winter-light: #dceaf2;
+  --color-error: #e7a98c;
+
+  --font-serif: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-charcoal);
+    color: var(--color-linen);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-charcoal);
+    color: var(--color-linen);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background-color: rgb(185 130 98 / 0.35);
+    color: var(--color-linen);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-charcoal-dark);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #383d38;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-copper);
+  }
+
+  /* visible keyboard focus everywhere */
+  :where(a, button, input, select, textarea, [tabindex]):focus-visible {
+    outline: 2px solid var(--color-winter);
+    outline-offset: 3px;
+  }
+}
+
+/* Buttons — square, editorial, one primary and one quiet variant */
+@utility btn-copper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  padding: 0.85rem 1.75rem;
+  background-color: var(--color-copper);
+  color: var(--color-charcoal-dark);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: var(--color-copper-hover);
+  }
+}
+
+@utility btn-outline-stone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  padding: 0.85rem 1.75rem;
+  border: 1px solid rgb(166 160 150 / 0.45);
+  color: var(--color-linen);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: border-color 0.3s ease, color 0.3s ease;
+  &:hover {
+    border-color: var(--color-copper);
+    color: var(--color-linen);
+  }
+}
+
+/* Small uppercase label — never below 12px */
+@utility label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-stone-arch);
+}
+
+/* Page-load intro for the hero (staggered with animation-delay) */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 24px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.intro {
+  animation: rise 1s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Scroll reveal (see components/Reveal.tsx) */
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 28px, 0);
+  transition:
+    opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
